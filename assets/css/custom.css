@@ -1,39 +1,5 @@
 /* Custom styles for your portfolio */
 
-/* Example: Change the main background color */
-body {
-  /* background-color: #f5f5f5; */
-}
-
-/* Example: Customize heading styles */
-h1, h2, h3 {
-  /* color: #2c3e50; */
-  /* font-weight: 700; */
-}
-
-/* Example: Customize link colors */
-a {
-  /* color: #3498db; */
-}
-
-a:hover {
-  /* color: #2980b9; */
-}
-
-/* Example: Customize the site header */
-.site-header {
-  /* border-bottom: 2px solid #e0e0e0; */
-  /* background-color: #ffffff; */
-}
-
-/* Example: Customize the site footer */
-.site-footer {
-  /* border-top: 2px solid #e0e0e0; */
-  /* background-color: #f9f9f9; */
-}
-
-/* Add your custom styles below */
-
 /* Center text utility classes */
 .text-center {
   text-align: center !important;
