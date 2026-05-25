@@ -96,5 +96,7 @@ This mount for the motor was actually a separate project for which I designed, f
 </div>
 
 1) The wheelchair lift was too tall and didn't allow a wheelchair to enter the vehicle. If it were any shorter, however, it would not aid the user much.
+
 2) The pulley meant for the end of the lift didn't fit betweeen the support plates when folded. It was merely removed.
+
 3) The rope got tangled in the 45° support when the lift was folded up. The support had to be removed completely when folded to resolve this issue.
