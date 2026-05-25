@@ -3,6 +3,7 @@ layout: post
 title:  "Thermal Sensor System"
 categories: Electrical Software EcoCAR
 image: /assets/images/ThermalSensingSignals.png
+featured: true
 ---
 
 Within 24 hours, I designed, built, and tested hardware and software to read the flow, temperature, and pressure of an automotive cooling system.
