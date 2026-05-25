@@ -2,7 +2,7 @@
 layout: post
 title:  "Improved Thermal System"
 categories: EcoCAR
-image: /assets/images/ThermalImprovement.PNG
+image: /assets/images/ThermalImprovement.png
 ---
 
 Designed new thermal system for electric motors to increase the flow and prevent them from overheating during max torque requests.
@@ -14,7 +14,7 @@ Designed new thermal system for electric motors to increase the flow and prevent
 2) A flow of at least 8 L/min is required to request maximum torque from the drive units in what is called 'boost mode'.
 
 <figure>
-  <img src="{{ '/assets/images/Overheat.PNG' | relative_url }}" alt="Rear Inverter Overheating" class="full-width">
+  <img src="{{ '/assets/images/Overheat.png' | relative_url }}" alt="Rear Inverter Overheating" class="full-width">
 </figure>
 
 <div class="center">
@@ -32,7 +32,7 @@ The flow requirement was known to be 11.3 L/min on the stock side and 20 L/min o
 The thermal requirement was calculated by estimating the maximum power lost as heat. This was determined by calculating the power out as a function of rpm and torque and using the efficiency map to estimate the power loss at each operation point.
 
 <figure>
-  <img src="{{ '/assets/images/ThermalRequirementEq.PNG' | relative_url }}" alt="Thermal Requirement Equations" class="full-width">
+  <img src="{{ '/assets/images/ThermalRequirementEq.png' | relative_url }}" alt="Thermal Requirement Equations" class="full-width">
 </figure>
 
 <div class="center">
@@ -42,7 +42,7 @@ The thermal requirement was calculated by estimating the maximum power lost as h
 Heat exchanger suppliers don't provide enough information to use heat tranfer equations to determine the thermal capability of a heat exchanger. Instead, I had to rely on the provided maximum thermal capability or heat exchanger selection tools. From these, I generated a table of possible options and selected the best. I selected row 8 because it met all the requirements, was cheap enough, and could be shipped in time.
 
 <figure>
-  <img src="{{ '/assets/images/HXOptions.PNG' | relative_url }}" alt="Heat Exchanger Options" class="full-width">
+  <img src="{{ '/assets/images/HXOptions.png' | relative_url }}" alt="Heat Exchanger Options" class="full-width">
 </figure>
 
 <div class="center">
@@ -60,7 +60,7 @@ A Bosch PCE 0392024078 cooling pump was selected because it operates off 12V, is
 Many specific parts were selected, ordered, and implemented which allowed the new thermal system to be successful. Below is a detailed diagram of parts that were selected and added:
 
 <figure>
-  <img src="{{ '/assets/images/DetailedThermalDiagram.PNG' | relative_url }}" alt="Detailed Thermal Diagram" class="full-width">
+  <img src="{{ '/assets/images/DetailedThermalDiagram.png' | relative_url }}" alt="Detailed Thermal Diagram" class="full-width">
 </figure>
 
 <div class="center">
@@ -70,7 +70,7 @@ Many specific parts were selected, ordered, and implemented which allowed the ne
 These components were combined to the stock thermal loop to create a dual thermal loop as shown below:
 
 <figure>
-  <img src="{{ '/assets/images/GeneralThermalDiagram.PNG' | relative_url }}" alt="General Thermal Diagram" class="full-width">
+  <img src="{{ '/assets/images/GeneralThermalDiagram.png' | relative_url }}" alt="General Thermal Diagram" class="full-width">
 </figure>
 
 <div class="center">
@@ -88,7 +88,7 @@ The heat exchanger, pump and coolant reservoir then needed to placed in the vehi
 A flow rate of 9 L/min was achieved in both motors (balanced using the flow restrictor). Boost mode was activated multiple times and the motors no longer overheat, as proven by the figure below. The thermal improvement occured between year 3 and 4. The ambient temperature in year 3 was higher, but the max temperature was limited by the motor derating when it reached 95 °C. If this didn't occur it would easily reach 110 °C. If the year 4 data were 10 °C hotter, the maximum temperature would still be under 95 °C (the overheating limit).
 
 <figure>
-  <img src="{{ '/assets/images/ThermalImprovement.PNG' | relative_url }}" alt="Motors Don't Overheat" class="full-width">
+  <img src="{{ '/assets/images/ThermalImprovement.png' | relative_url }}" alt="Motors Don't Overheat" class="full-width">
 </figure>
 
 <div class="center">
@@ -96,7 +96,7 @@ A flow rate of 9 L/min was achieved in both motors (balanced using the flow rest
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/HeatExchanger.PNG' | relative_url }}" alt="Heat Exchanger" class="full-width">
+  <img src="{{ '/assets/images/HeatExchanger.png' | relative_url }}" alt="Heat Exchanger" class="full-width">
 </figure>
 
 <div class="center">
@@ -104,7 +104,7 @@ A flow rate of 9 L/min was achieved in both motors (balanced using the flow rest
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/Pump.PNG' | relative_url }}" alt="Pump" class="full-width">
+  <img src="{{ '/assets/images/Pump.png' | relative_url }}" alt="Pump" class="full-width">
 </figure>
 
 <div class="center">
@@ -112,7 +112,7 @@ A flow rate of 9 L/min was achieved in both motors (balanced using the flow rest
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/CoolantReservoir.PNG' | relative_url }}" alt="Coolant Reservoir" class="full-width">
+  <img src="{{ '/assets/images/CoolantReservoir.png' | relative_url }}" alt="Coolant Reservoir" class="full-width">
 </figure>
 
 <div class="center">
