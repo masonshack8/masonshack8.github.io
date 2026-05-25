@@ -2,7 +2,7 @@
 layout: post
 title:  "Thermal Sensor System"
 categories: Electrical Software EcoCAR
-image: /assets/images/ThermalSensingSignals.png
+image: /assets/images/ThermalImprovement.png
 ---
 
 Within 24 hours, I designed, built, and tested hardware and software to read the flow, temperature, and pressure of an automotive cooling system.
@@ -58,7 +58,7 @@ All software was made in Simulink.
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/PressureSensor.png' | relative_url }}" alt="Pressure Sensing Software" class="full-width">
+  <img src="{{ '/assets/images/PressureSoftware.png' | relative_url }}" alt="Pressure Sensing Software" class="full-width">
 </figure>
 
 <div class="center">
