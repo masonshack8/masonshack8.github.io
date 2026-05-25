@@ -2,7 +2,7 @@
 layout: post
 title:  "Improved Thermal System"
 categories: EcoCAR
-image: /assets/images/ThermalImprovement.jpg
+image: /assets/images/ThermalImprovement.PNG
 ---
 
 Designed new thermal system for electric motors to increase the flow and prevent them from overheating during max torque requests.
