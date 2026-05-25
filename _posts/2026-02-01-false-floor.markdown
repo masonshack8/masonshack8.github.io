@@ -50,7 +50,7 @@ The panels were made of plywood since they would support 200 lbs and be easy to 
 The main battle was choosing where the panel would sit in space and designing 3D printed supports which would attach to the stock trim and panel. A picture of the design is not included since it is primarily confidential CAD.
 
 <figure>
-  <img src="{{ '/assets/images/SidePanel.png' | relative_url }}" alt="Side Panel" class="full-width">
+  <img src="{{ '/assets/images/SidePanel.jpg' | relative_url }}" alt="Side Panel" class="full-width">
 </figure>
 
 <div class="center">
