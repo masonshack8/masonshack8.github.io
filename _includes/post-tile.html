@@ -13,11 +13,7 @@
     {%- endif -%}
     <div class="post-tile-content">
       <h3 class="post-tile-title">{{ include.post.title | escape }}</h3>
-      {%- if include.post.description -%}
-        <p class="post-tile-description">{{ include.post.description | escape }}</p>
-      {%- elsif include.post.excerpt -%}
-        <p class="post-tile-description">{{ include.post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
-      {%- endif -%}
+      <time class="post-tile-date" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
       {%- if include.post.categories.size > 0 -%}
         <div class="post-tile-categories">
           {%- for category in include.post.categories -%}
