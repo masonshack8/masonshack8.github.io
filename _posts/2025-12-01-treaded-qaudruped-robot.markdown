@@ -3,6 +3,7 @@ layout: post
 title:  "Treaded Quadruped Robot"
 categories: Electrical Software
 image: /assets/images/Treaded Quadruped.png
+featured: true
 ---
 
 Robot capable of walking and treaded locomotion for capstone project.

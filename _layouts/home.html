@@ -9,40 +9,30 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <div class="post-tiles">
-      {%- for post in site.posts -%}
-        <article class="post-tile">
-          <a href="{{ post.url | relative_url }}" class="post-tile-link">
-            {%- if post.image -%}
-              <div class="post-tile-image">
-                <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
-              </div>
-            {%- else -%}
-              <div class="post-tile-image post-tile-placeholder">
-                <div class="post-tile-placeholder-content">
-                  <span class="post-tile-icon">📄</span>
-                </div>
-              </div>
-            {%- endif -%}
-            <div class="post-tile-content">
-              <h3 class="post-tile-title">{{ post.title | escape }}</h3>
-              {%- if post.description -%}
-                <p class="post-tile-description">{{ post.description | escape }}</p>
-              {%- endif -%}
-              {%- if post.categories.size > 0 -%}
-                <div class="post-tile-categories">
-                  {%- for category in post.categories -%}
-                    <span class="post-tile-category">{{ category }}</span>
-                  {%- endfor -%}
-                </div>
-              {%- endif -%}
-            </div>
-          </a>
-        </article>
-      {%- endfor -%}
-    </div>
+  {%- assign featured_posts = site.posts | where: "featured", true -%}
+  {%- if featured_posts.size > 0 -%}
+    <section class="featured-section" aria-labelledby="featured-heading">
+      <h2 id="featured-heading" class="section-heading">Featured Projects</h2>
+      <div class="post-tiles featured-post-tiles">
+        {%- for post in featured_posts -%}
+          {%- include post-tile.html post=post featured=true -%}
+        {%- endfor -%}
+      </div>
+    </section>
+  {%- endif -%}
+
+  {%- assign regular_posts = site.posts | where_exp: "post", "post.featured != true" -%}
+  {%- if regular_posts.size > 0 -%}
+    <section class="all-posts-section" aria-labelledby="all-posts-heading">
+      {%- if featured_posts.size > 0 -%}
+        <h2 id="all-posts-heading" class="section-heading">All Projects</h2>
+      {%- endif -%}
+      <div class="post-tiles">
+        {%- for post in regular_posts -%}
+          {%- include post-tile.html post=post -%}
+        {%- endfor -%}
+      </div>
+    </section>
   {%- endif -%}
 
 </div>
-

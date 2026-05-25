@@ -91,6 +91,47 @@ article.post img:not(.full-width),
   height: auto !important;
 }
 
+/* Home page sections */
+.section-heading {
+  margin: 2.5rem 0 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.featured-section .section-heading {
+  margin-top: 2rem;
+}
+
+.all-posts-section .section-heading {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+/* Featured post tiles — larger, fewer columns */
+.featured-post-tiles {
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 2.5rem;
+}
+
+.post-tile--featured {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.post-tile--featured .post-tile-image {
+  max-height: 260px;
+  aspect-ratio: 16 / 10;
+}
+
+.post-tile--featured .post-tile-title {
+  font-size: 1.4rem;
+}
+
+.post-tile--featured .post-tile-description {
+  -webkit-line-clamp: 4;
+}
+
 /* Post Tiles Grid Layout */
 .post-tiles {
   display: grid;
@@ -214,6 +255,15 @@ article.post img:not(.full-width),
   .post-tiles {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1.5rem;
+  }
+
+  .featured-post-tiles {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .post-tile--featured .post-tile-image {
+    max-height: 220px;
   }
 }
 

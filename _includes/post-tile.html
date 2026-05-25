@@ -1,0 +1,30 @@
+<article class="post-tile{% if include.featured %} post-tile--featured{% endif %}">
+  <a href="{{ include.post.url | relative_url }}" class="post-tile-link">
+    {%- if include.post.image -%}
+      <div class="post-tile-image">
+        <img src="{{ include.post.image | relative_url }}" alt="{{ include.post.title | escape }}">
+      </div>
+    {%- else -%}
+      <div class="post-tile-image post-tile-placeholder">
+        <div class="post-tile-placeholder-content">
+          <span class="post-tile-icon">📄</span>
+        </div>
+      </div>
+    {%- endif -%}
+    <div class="post-tile-content">
+      <h3 class="post-tile-title">{{ include.post.title | escape }}</h3>
+      {%- if include.post.description -%}
+        <p class="post-tile-description">{{ include.post.description | escape }}</p>
+      {%- elsif include.post.excerpt -%}
+        <p class="post-tile-description">{{ include.post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
+      {%- endif -%}
+      {%- if include.post.categories.size > 0 -%}
+        <div class="post-tile-categories">
+          {%- for category in include.post.categories -%}
+            <span class="post-tile-category">{{ category }}</span>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </a>
+</article>
