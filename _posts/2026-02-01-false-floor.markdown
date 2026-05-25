@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Wheelchair Lift"
+title:  "False Floor"
 categories: EcoCAR
-image: /assets/images/Uplift.png
+image: /assets/images/FalseFloorFinal.jpg
 ---
 
 Within 5 days, I designed a wheelchair lift that fit within tight geometric constraints, could lift up to 60 lbs, and cost less than $900.
@@ -16,7 +16,7 @@ Another subteam (Mobility Challenge led by Katelyn Potts) on the Georgia Tech Ec
 I first designed the base to ensure the design was feasible. It had to be attached to the vehicle using the seat bolts and fit between the seat and the door. I used FEA for this since all parts were rigidly connected.
 
 <figure>
-  <img src="{{ '/assets/images/UpliftBaseFEA.jpg' | relative_url }}" alt="Wheelchair Lift Base FEA" class="full-width">
+  <img src="{{ '/assets/images/UpliftBaseFEA.png' | relative_url }}" alt="Wheelchair Lift Base FEA" class="full-width">
 </figure>
 
 <div class="center">
@@ -44,7 +44,7 @@ I was responsible for waterjetting the steel plates (Tyson Tran helped me with t
 I was not responsible for assembling the lift.
 
 <figure>
-  <img src="{{ '/assets/images/WaterjetPieces.jpg' | relative_url }}" alt="Waterjet Pieces" class="full-width">
+  <img src="{{ '/assets/images/WaterjetPieces.png' | relative_url }}" alt="Waterjet Pieces" class="full-width">
 </figure>
 
 <div class="center">
@@ -52,7 +52,7 @@ I was not responsible for assembling the lift.
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/BaseWelded.jpg' | relative_url }}" alt="Base Welded" class="full-width">
+  <img src="{{ '/assets/images/BaseWelded.png' | relative_url }}" alt="Base Welded" class="full-width">
 </figure>
 
 <div class="center">
@@ -60,7 +60,7 @@ I was not responsible for assembling the lift.
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/SupportsWelded.jpg' | relative_url }}" alt="Supports Welded" class="full-width">
+  <img src="{{ '/assets/images/SupportsWelded.png' | relative_url }}" alt="Supports Welded" class="full-width">
 </figure>
 
 <div class="center">
@@ -68,7 +68,7 @@ I was not responsible for assembling the lift.
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/MotorandBase.jpg' | relative_url }}" alt="Motor and Mount" class="full-width">
+  <img src="{{ '/assets/images/MotorandBase.png' | relative_url }}" alt="Motor and Mount" class="full-width">
 </figure>
 
 <div class="center">
@@ -78,7 +78,7 @@ I was not responsible for assembling the lift.
 This mount for the motor was actually a separate project for which I designed, fabricated, and installed the mount in 12 hours.
 
 <figure>
-  <img src="{{ '/assets/images/FullAssem.jpg' | relative_url }}" alt="Full Wheelchair Lift Assembly" class="full-width">
+  <img src="{{ '/assets/images/FullAssem.png' | relative_url }}" alt="Full Wheelchair Lift Assembly" class="full-width">
 </figure>
 
 <div class="center">
@@ -86,14 +86,6 @@ This mount for the motor was actually a separate project for which I designed, f
 </div>
 
 ## Issues
-
-<figure>
-  <img src="{{ '/assets/images/UpliftIssues.jpg' | relative_url }}" alt="Wheelchair Fitment Issue" class="full-width">
-</figure>
-
-<div class="center">
-  <h3 class="text-small"> Wheelchair Fitment Issue</h3>
-</div>
 
 1) The wheelchair lift was too tall and didn't allow a wheelchair to enter the vehicle. If it were any shorter, however, it would not aid the user much.
 2) The pulley meant for the end of the lift didn't fit betweeen the support plates when folded. It was merely removed.
