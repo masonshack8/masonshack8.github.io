@@ -5,7 +5,7 @@ categories: EcoCAR
 image: /assets/images/ThermalImprovement.png
 ---
 
-Designed new thermal system for electric motors to increase the flow and prevent them from overheating during max torque requests.
+Designed new thermal system for electric motors to increase the flow and prevent them from overheating during max torque requests, within a month.
 
 ## Problem
 
@@ -70,7 +70,7 @@ Many specific parts were selected, ordered, and implemented which allowed the ne
 These components were combined to the stock thermal loop to create a dual thermal loop as shown below:
 
 <figure>
-  <img src="{{ '/assets/images/GeneralThermalDiagram.png' | relative_url }}" alt="General Thermal Diagram" class="full-width">
+  <img src="{{ '/assets/images/CompleteThermalDiagram.png' | relative_url }}" alt="General Thermal Diagram" class="full-width">
 </figure>
 
 <div class="center">
@@ -96,7 +96,7 @@ A flow rate of 9 L/min was achieved in both motors (balanced using the flow rest
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/HeatExchanger.png' | relative_url }}" alt="Heat Exchanger" class="full-width">
+  <img src="{{ '/assets/images/HeatExchanger.JPG' | relative_url }}" alt="Heat Exchanger" class="full-width">
 </figure>
 
 <div class="center">
@@ -104,7 +104,7 @@ A flow rate of 9 L/min was achieved in both motors (balanced using the flow rest
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/Pump.png' | relative_url }}" alt="Pump" class="full-width">
+  <img src="{{ '/assets/images/Pump.JPG' | relative_url }}" alt="Pump" class="full-width">
 </figure>
 
 <div class="center">
@@ -112,7 +112,7 @@ A flow rate of 9 L/min was achieved in both motors (balanced using the flow rest
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/CoolantReservoir.png' | relative_url }}" alt="Coolant Reservoir" class="full-width">
+  <img src="{{ '/assets/images/CoolantReservoir.JPG' | relative_url }}" alt="Coolant Reservoir" class="full-width">
 </figure>
 
 <div class="center">
