@@ -52,7 +52,7 @@ I was not responsible for assembling the lift.
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/BaseWelded.jpg' | relative_url }}" alt="Base Welded" class="full-width">
+  <img src="{{ '/assets/images/BaseWelded.JPG' | relative_url }}" alt="Base Welded" class="full-width">
 </figure>
 
 <div class="center">
@@ -60,7 +60,7 @@ I was not responsible for assembling the lift.
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/SupportsWelded.jpg' | relative_url }}" alt="Supports Welded" class="full-width">
+  <img src="{{ '/assets/images/SupportsWelded.JPG' | relative_url }}" alt="Supports Welded" class="full-width">
 </figure>
 
 <div class="center">
@@ -88,7 +88,7 @@ This mount for the motor was actually a separate project for which I designed, f
 ## Issues
 
 <figure>
-  <img src="{{ '/assets/images/UpliftIssues.jpg' | relative_url }}" alt="Wheelchair Fitment Issue" class="full-width">
+  <img src="{{ '/assets/images/UpliftIssues.png' | relative_url }}" alt="Wheelchair Fitment Issue" class="full-width">
 </figure>
 
 <div class="center">
