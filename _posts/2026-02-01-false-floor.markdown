@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "False Floor"
-categories: EcoCAR
+categories: Hardware EcoCAR
 image: /assets/images/FalseFloorFinal.jpg
 ---
 

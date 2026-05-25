@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Improved Thermal System"
-categories: EcoCAR
+categories: Hardware EcoCAR
 image: /assets/images/ThermalImprovement.png
 ---
 

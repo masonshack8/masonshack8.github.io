@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wheelchair Lift"
-categories: EcoCAR
+categories: Hardware EcoCAR
 image: /assets/images/Uplift.png
 ---
 
