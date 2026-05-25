@@ -56,3 +56,13 @@ The main battle was choosing where the panel would sit in space and designing 3D
 <div class="center">
   <h3 class="text-small"> Side Panel</h3>
 </div>
+
+## Final Product
+
+<figure>
+  <img src="{{ '/assets/images/FalseFloorFinal.jpg' | relative_url }}" alt="Final False Floor" class="full-width">
+</figure>
+
+<div class="center">
+  <h3 class="text-small"> Final False Floor</h3>
+</div>
