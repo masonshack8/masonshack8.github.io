@@ -96,7 +96,7 @@ A flow rate of 9 L/min was achieved in both motors (balanced using the flow rest
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/HeatExchanger.JPG' | relative_url }}" alt="Heat Exchanger" class="full-width">
+  <img src="{{ '/assets/images/HeatExchanger.jpg' | relative_url }}" alt="Heat Exchanger" class="full-width">
 </figure>
 
 <div class="center">
@@ -104,7 +104,7 @@ A flow rate of 9 L/min was achieved in both motors (balanced using the flow rest
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/Pump.JPG' | relative_url }}" alt="Pump" class="full-width">
+  <img src="{{ '/assets/images/Pump.jpg' | relative_url }}" alt="Pump" class="full-width">
 </figure>
 
 <div class="center">
@@ -112,7 +112,7 @@ A flow rate of 9 L/min was achieved in both motors (balanced using the flow rest
 </div>
 
 <figure>
-  <img src="{{ '/assets/images/CoolantReservoir.JPG' | relative_url }}" alt="Coolant Reservoir" class="full-width">
+  <img src="{{ '/assets/images/CoolantReservoir.jpg' | relative_url }}" alt="Coolant Reservoir" class="full-width">
 </figure>
 
 <div class="center">
