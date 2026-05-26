@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Thermal Sensor System"
+title:  "Coolant Sensor Suite"
 categories: Electrical Software EcoCAR
 image: /assets/images/ThermalSensingSignals.png
 featured: true
 ---
 
-Within 24 hours, I designed, built, and tested hardware and software to read the flow, temperature, and pressure of an automotive cooling system.
+In 24 hours I designed, built, and tested hardware and software to read the flow, temperature, and pressure of an automotive cooling system. This has now been in the vehicle for 5 months and counting without issues.
 
 ## Background
 
-This project was completed so quickly because the basic building blocks had already been tested by the 'Flowmeter Controller' project, which this replaced in the vehicle. These flowmeters (which include a temperature sensor) on the motor side were used to ensure sufficient flow was always reaching the motors. The flowmeter and pressure sensor on the stock loop were used to verify the added components match the stock pressure drop and flow. This ensures the stock components are cooled as intended.
+This project was completed so quickly because the basic building blocks had already been tested developed by the 'Flowmeter Controller' project, which this replaced in the vehicle. Flowmeters (which include a temperature sensor) on the motor side were used to ensure sufficient flow was always reaching the motors. A flowmeter and pressure sensor on the stock loop were used to verify the added components match the stock pressure drop and flow. This ensures the stock components are cooled as intended.
 
 ## Electrical
 

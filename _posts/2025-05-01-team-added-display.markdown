@@ -5,7 +5,7 @@ categories: Software EcoCAR
 image: /assets/images/Display.png
 ---
 
-Designed, coded, tested, improved team-added display for EcoCAR.
+In 5 weeks I designed, coded, tested, and improved a team-added display for EcoCAR.
 
 <figure>
   <img src="{{ '/assets/images/Display.png' | relative_url }}" alt="Display Interface" class="full-width">
@@ -17,7 +17,7 @@ Designed, coded, tested, improved team-added display for EcoCAR.
 
 ## Description
 
-Over 5 weeks, I designed and coded the display which allows the user to view and interact with the parts of the vehicle the team added such as the motors and autonomous driving features. I also coded the microcontroller that communicates between the display and the vehicle. The difficulty was in making a microcontroller send and receive messages from the display and the vehicle using different communication methods that had to be coded and decoded manually. I wrote 2000 lines of C++ code to transfer messages using this microcontroller.
+I designed and coded the display which allows the user to view and interact with the parts of the vehicle the team added such as the motors and autonomous driving features. I also coded the microcontroller that communicates between the display and the vehicle. The challenge was making a microcontroller send and receive messages from the display and the vehicle using different communication methods that had to be coded and decoded manually. I wrote 2000 lines of C++ code to transfer messages using this microcontroller.
 
 <figure>
   <img src="{{ '/assets/images/DisplaySystemDiagram.png' | relative_url }}" alt="Display System Diagram" class="full-width">

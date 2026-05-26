@@ -5,7 +5,7 @@ categories: Electrical EcoCAR
 image: /assets/images/RearHVBox.jpg
 ---
 
-Designed three high voltage distribution boxes with fuses, HVIL, GFD, contactors, and test connector.
+Designed three high voltage distribution boxes with fuses, HVIL, GFD, contactors, and a test connector.
 
 ## Description
 

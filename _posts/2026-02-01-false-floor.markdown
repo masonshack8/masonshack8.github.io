@@ -5,7 +5,7 @@ categories: Hardware EcoCAR
 image: /assets/images/FalseFloorFinal.jpg
 ---
 
-Within 7 days I designed a false floor which could support 200 lbs and a side panel with 3D printed supports that conformed to the stock trim. Evan Harnett fabricated the entire design.
+In 7 days I designed a false floor which could support 200 lbs and a side panel with 3D printed supports that conformed to the stock trim. Evan Harnett fabricated the entire design.
 
 ## Background
 
@@ -21,7 +21,7 @@ A false floor was needed to place cargo in the trunk of the LYRIQ without damagi
 
 ## False Floor Frame
 
-I designed the false floor frame to support 200 lbs with a factor of safety of at least 1.5. It was designed of t-slot aluminum extrusions and brackets. For FEA, the t-slots were modeled as hollow square extrusion since the t-slot repeatedly caused errors in the software. The main concern was the brackets failing, not the t-slots.
+I designed the false floor frame to support 200 lbs with a factor of safety of at least 1.5. It was designed of t-slot aluminum extrusions and brackets. For FEA, the t-slots were modeled as hollow square extrusion since the t-slot repeatedly caused errors in the software. Additionally, the main concern was the brackets failing, not the t-slots.
 
 The mounting locations on the car were very limited as no holes could be drilled, so existing bolts/holes had to be used or a new stud had to be welded to the car.
 
@@ -47,7 +47,7 @@ The panels were made of plywood since they would support 200 lbs and be easy to 
 
 ## Side Panel
 
-The main battle was choosing where the panel would sit in space and designing 3D printed supports which would attach to the stock trim and panel. A picture of the design is not included since it is primarily confidential CAD.
+The main challenge was choosing where the panel would sit in space and designing 3D printed supports which would attach to the stock trim and panel. A picture of the design is not included since it is primarily confidential CAD.
 
 <figure>
   <img src="{{ '/assets/images/SidePanel.jpg' | relative_url }}" alt="Side Panel" class="full-width">

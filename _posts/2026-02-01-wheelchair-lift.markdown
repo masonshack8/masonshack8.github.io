@@ -5,11 +5,11 @@ categories: Hardware EcoCAR
 image: /assets/images/Uplift.png
 ---
 
-Within 5 days, I designed a wheelchair lift that fit within tight geometric constraints, could lift up to 60 lbs, and cost less than $900.
+In 5 days I designed a wheelchair lift that fit within tight geometric constraints, could lift up to 60 lbs, and cost less than $900.
 
 ## Background
 
-Another subteam (Mobility Challenge led by Katelyn Potts) on the Georgia Tech EcoCAR team was tasked with making a wheelchair lift, but they needed help getting a functioning prototype. I started from scratch and designed a sturdy wheelchair lift that only had a few issues when built.
+I helped another subteam (Mobility Challenge led by Katelyn Potts) on the Georgia Tech EcoCAR team make a functioning prototype for a wheelchair lift. I started from scratch and designed a sturdy wheelchair lift that only had a few issues when built.
 
 ## Hand Calculations/FEA
 
@@ -23,7 +23,7 @@ I first designed the base to ensure the design was feasible. It had to be attach
   <h3 class="text-small"> Wheelchair Lift Base FEA</h3>
 </div>
 
-The remainder of the mechanism was designed using hand calculations for the parts in isolation because the interface between the components was imprecise. The remainder of the lift was reliant on the parts pushing on each other.
+The remainder of the mechanism was designed using hand calculations for the parts in isolation because the interface between the components was imprecise: the parts were not rigidly fastened but instead rested on each other.
 
 <figure>
   <img src="{{ '/assets/images/HandCalcSummary.png' | relative_url }}" alt="Hand Calculations Summary" class="full-width">
@@ -33,15 +33,13 @@ The remainder of the mechanism was designed using hand calculations for the part
   <h3 class="text-small"> Hand Calculations Summary</h3>
 </div>
 
-More detail on the hand calculations and system can be found in the following slides:
+More detail on the hand calculations and design in general can be found in the following slides:
 
 [Wheelchair Lift Prototype Hand Calculations and FEA]({{ "/assets/files/Prototype CAD, FEA, Analysis.pdf" | relative_url }})
 
 ## Fabrication
 
-I was responsible for waterjetting the steel plates (Tyson Tran helped me with this part) and welding the plates and aluminum t-slots together. This process took about 25 hours.
-
-I was not responsible for assembling the lift.
+I was responsible for waterjetting the steel plates (Tyson Tran helped me with this part) and welding the plates and aluminum t-slots together. This process took about 25 hours. Katelyn Potts assembled the lift.
 
 <figure>
   <img src="{{ '/assets/images/WaterjetPieces.jpg' | relative_url }}" alt="Waterjet Pieces" class="full-width">
@@ -75,7 +73,7 @@ I was not responsible for assembling the lift.
   <h3 class="text-small"> Motor and Mount</h3>
 </div>
 
-This mount for the motor was actually a separate project for which I designed, fabricated, and installed the mount in 12 hours.
+This mount for the motor was actually a separate project in which I designed, fabricated, and installed the mount in 12 hours.
 
 <figure>
   <img src="{{ '/assets/images/FullAssem.jpg' | relative_url }}" alt="Full Wheelchair Lift Assembly" class="full-width">

@@ -5,7 +5,7 @@ categories: Software Electrical EcoCAR
 image: /assets/images/FlowmeterReal.jpg
 ---
 
-Designed electronics, wrote software, tested, validated flowmeter for EcoCAR.
+Designed electronics, wrote software, tested, and validated flowmeter for EcoCAR.
 
 ## Description
 

@@ -6,7 +6,7 @@ image: /assets/images/Treaded Quadruped.png
 featured: true
 ---
 
-Robot capable of walking and treaded locomotion for capstone project.
+Over the course of a semester I helped build a robot capable of walking and treaded locomotion for a capstone project.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/SE4VRGaMIrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
 
